@@ -2,6 +2,11 @@ variable "machine_type" {
    default = "b3c.4x16"
 }
 
+variable "resource_group_id" {
+  type        = string
+  default     = "aadb17b59af948699a4b2bc66c1cda5c"
+}
+
 variable "hardware" {
    default = "shared"
 }
