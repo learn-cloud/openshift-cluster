@@ -7,11 +7,11 @@ variable "hardware" {
 }
 
 variable "datacenter" {
-  default = "wdc04"
+  default = "dal10"
 }
 
 variable "default_pool_size" {
-  default = "2"
+  default = "1"
 }
 
 variable "private_vlan_id" {}
@@ -19,9 +19,9 @@ variable "private_vlan_id" {}
 variable "public_vlan_id" {}
 
 variable "cluster_name" {
-  default = "iks_openshift"
+  default = "anand-oc"
 }
 
 variable kube_version {
-  default = "4.3_openshift"
+  default = "4.7.33_1536_openshift"
 }
