@@ -20,11 +20,11 @@ variable "default_pool_size" {
 }
 
 variable "private_vlan_id" {
-  default = "2777838-1667-bcr01a.dal10-vlan-us46"
+#  default = "2777838-1667-bcr01a.dal10-vlan-us46"
 }
 
 variable "public_vlan_id" {
-  default = "2063555-864-fcr01a.dal10"
+#  default = "2063555-864-fcr01a.dal10"
 }
 
 variable "cluster_name" {
