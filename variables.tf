@@ -14,9 +14,13 @@ variable "default_pool_size" {
   default = "1"
 }
 
-variable "private_vlan_id" {}
+variable "private_vlan_id" {
+  default = "2063555-864-fcr01a.dal10"
+}
 
-variable "public_vlan_id" {}
+variable "public_vlan_id" {
+  default = "2777838-1667-bcr01a.dal10-vlan-us46"
+}
 
 variable "cluster_name" {
   default = "anand-oc"
